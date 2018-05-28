@@ -1,0 +1,307 @@
+body {
+	@extend %font;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	height: 100%;
+	color: #444;
+	line-height: 1.3;
+}
+
+a {
+	color: $link;
+	&:visited {
+		$color: $link;
+	}
+}
+
+%flex {
+	display: flex;
+}
+
+
+.qc-cmp-ui {
+	@extend %flex;
+	margin: auto;
+	@media (min-width: 550px) {
+		max-height: 650px;	
+	}
+	&-container {
+		@extend %flex;
+		background: rgba(33, 41, 52, 0.85);
+		bottom: 0;
+		left: 0;
+		overflow-y: scroll;
+		position: fixed;
+		right: 0;
+		top: 0;
+		transition: opacity 0.15s ease;
+		z-index: 2147483647;
+	}	
+}
+
+
+
+.content {
+	max-width: 600px;
+	background-color: #fff;
+	padding: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+
+	
+
+}
+
+.qc-cmp-nav-bar.qc-cmp-top {
+	border-bottom: 1px solid #e8e9ea;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px;
+
+}
+
+@media (max-width: 550px) {
+	.qc-cmp-nav-bar.qc-cmp-top {
+		flex-direction: column;
+		align-items: center;
+		
+	}
+}
+
+.qc-cmp-nav-bar-publisher-logo-container {
+    align-items: center;
+    display: flex;
+    height: 60px;
+    margin: 0 0 0 20px;
+}
+
+
+.qc-cmp-purposes-page-content {
+	height: calc(100vh - 100px);
+	min-height: 250px;
+	overflow-y: scroll;
+	padding: 20px;
+}
+
+
+.qc-cmp-nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    &.qc-cmp-bottom {
+    	border-top: 1px solid $border-color;
+    	flex-wrap: wrap;
+    	@media (max-width: 550px) {
+			justify-content: center;
+    	}
+    }
+}
+
+
+
+
+
+
+.header {
+	font-weight: 700;
+	font-size: 25px;
+	color: #333;
+	margin: 0 0 20px;
+}
+p {
+	font-size: 14px;
+	margin: 0 0 20px;
+}
+.btn {
+	@extend %font;
+	text-transform: uppercase;
+	display: inline-flex;
+	height: 50px;
+	align-items: center;
+	padding: 0 20px;
+	border: 0;
+	font-weight: 700;
+	letter-spacing: .06em;
+	cursor: pointer;
+	justify-content: center;
+	transition: all .2s ease;
+	border-radius: 2px;
+	border: 2px solid transparent;
+
+	
+
+
+}
+.ml-10 {
+	margin-left: 10px;
+}
+.btn--blue {
+	background-color: $link;
+	color: #fff;
+	&:hover {
+		background-color: darken($link, 10%);
+	}
+}
+.btn--blue-alt {
+	border-color: $link;
+	color: $link;
+}
+
+.btn--trans {
+	color: $gray;
+	background: transparent;
+	&:hover {
+		color: darken($gray, 15%);
+	}
+}
+
+.btn--block {
+	min-width: 200px;
+}
+
+.btn--lg {
+	font-size: 14px;
+	height: 50px;
+}
+
+.btn--md {
+	font-size: 13px;
+	height: 40px;
+}
+
+.btn--sm {
+	font-size: 10px;
+
+}
+
+.icon {
+	fill: #a2a7ab;
+	width: 14px;
+	height: 14px;
+	margin-right: 5px;
+	opacity: .8;
+}
+
+
+
+
+
+
+
+.qc-cmp-toggler {
+	display: inline-block;
+	
+
+}
+.qc-cmp-toggle-switch {
+	position: absolute;
+	display: inline-block;
+	top: 2px;
+	right: 16px;
+	width: 19px;
+	height: 19px;
+	background-color: #fff;
+	border-radius: 50%;
+	transition: right 0.05s linear;
+	box-shadow: 2px 2px 1px rgba(0,0,0,.25);
+}
+.qc-cmp-toggle {
+	background-color: $gray;
+	border: 0px solid $gray;
+	border-radius: 27px;
+	cursor: pointer;
+	display: block;
+	height: 23px;
+	margin: 0 0 0 auto;
+	position: relative;
+	width: 38px;
+	transition: background-color .2s ease, border-color .2s ease;
+}
+
+.qc-cmp-small-toggle.qc-cmp-toggle-on, 
+.qc-cmp-toggle.qc-cmp-toggle-on {
+	background-color: $green;
+	    border-color: $green;
+}
+
+
+.qc-cmp-toggle-on .qc-cmp-toggle-switch {
+    right: 2px;
+}
+
+.qc-cmp-toggle-status {
+	display: none;
+}
+
+
+/////// TABLE 
+
+.qc-cmp-table {
+    border: 1px solid $border-color;
+    border-collapse: collapse;
+    color: #141e23;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+.qc-cmp-table-header {
+    color: #7a7f85;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0 20px;
+    
+    
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $gray;
+
+}
+
+.qc-cmp-table-row {
+    border-top: 1px solid $border-color;
+    padding: 10px 20px;
+ }
+
+.qc-cmp-purpose-info {
+	position: relative;
+}
+.qc-cmp-purpose-description {
+	margin: 10px 0;
+	width: calc(100% - 75px);
+}
+
+.qc-cmp-purpose-actions {
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    bottom: 20px;
+}
+
+.qc-cmp-show-vendors-link {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.qc-cmp-alt-action {
+    cursor: pointer;
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+}
+
+.qc-cmp-hidden {
+	display: none;
+}
+

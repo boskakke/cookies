@@ -1,0 +1,22 @@
+{
+  "name": "jppol",
+  "homepage": "https://jppol.medieimperiet.dk/",
+  "authors": [
+    "Bo Skakke <bo@skakke.dk>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": ">=2.1.4",
+    "waypoints": "^4.0.1"
+  },
+  "overrides": {
+    "waypoints": {
+      "main": [
+        "./lib/jquery.waypoints.js",
+        "./lib/shortcuts/inview.js"
+      ]
+    }
+  },
+  "devDependencies": {}
+}

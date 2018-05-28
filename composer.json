@@ -1,0 +1,19 @@
+{
+  "name": "jppol",
+  "type": "Prototype",
+  "description": "HTML, CSS and JS for jppol",
+  "homepage": "http://jppol.medieimperiet.dk/",
+  "authors": [
+    {
+      "name": "Bo Skakke",
+      "email": "bo@skakke.dk"
+    }
+  ],
+  "keywords": [
+    "idényt"
+  ],  
+  "require": {
+    "php": ">=5.4.0",
+    "composer/installers": "~1.0"
+  }
+}

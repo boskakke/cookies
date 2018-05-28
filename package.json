@@ -1,0 +1,69 @@
+{
+  "name": "jppol",
+  "version": "1.0.0",
+  "author": "Bo Skakke <bo@skakke.dk>",
+  "homepage": "http://www.marginmedia.dk/",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/boskakke/jppol.dk.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "scripts": {
+    "build": "bower install && gulp",
+    "jshint": "gulp jshint",
+    "jscs": "jscs gulpfile.js assets/scripts/*.js",
+    "css:lint": "sass-lint --config .scss-lint.yml ./assets/styles/*.scss --verbose"
+  },
+  "engines": {
+    "node": ">= 0.12.0",
+    "npm": ">=2.1.5"
+  },
+  "devDependencies": {
+    "asset-builder": "^1.0.2",
+    "browser-sync": "^2.7.1",
+    "browserslist": [
+      "> 1%",
+      "last 2 versions"
+    ],
+    "del": "^3.0.0",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-flatten": "^0.4.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-less": "^3.0.2",
+    "gulp-minify-css": "^1.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-rev": "^8.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-lint": "^1.1.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.7",
+    "imagemin-pngcrush": "^5.1.0",
+    "jquery-lazyload": "^1.9.5",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "lazypipe": "^1.0.1",
+    "merge-stream": "^1.0.1",
+    "minimist": "^1.1.1",
+    "run-sequence": "^2.2.1",
+    "sass-lint": "^1.7.0",
+    "traverse": "^0.6.6",
+    "wiredep": "^4.0.0"
+  },
+  "dependencies": {
+    "gulp-install": "^1.1.0",
+    "scrollreveal": "^3.3.6"
+  }
+}
