@@ -1,4 +1,4 @@
-<? require_once("dummy/dummy.php") ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
