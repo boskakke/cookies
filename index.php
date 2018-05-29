@@ -19,7 +19,7 @@
 	<p class="qc-cmp-main-messaging">Få ydligere oplysninger ved at læse om vores samarbejdspartneres <a href="https://d3nhmqrdssv741.cloudfront.net/jppol-consent/samtykke_html/samtykke.html" target="_blank">behandling af persondata</a> eller vores <a href="http://www.jppol.dk/da/specialsider/cookies.aspx" target="_blank">politik for behandling af persondata</a>.</p>
 
 
-   <span>      <div class="qc-cmp-buttons" id="qcCmpButtons">      <button class="qc-cmp-button" onclick="window.__cmpui(&quot;setAndSaveAllConsent&quot;,!0)"> Acceptér </button>      </div>      </span>      </span>      </div>      <div class="qc-cmp-initalt-buttons">      <p><a id="qc-cmp-purpose-button" class="qc-cmp-alt-action qc-cmp-center-bottom" onclick="window.__cmpui(&quot;updateConsentUi&quot;,2)"> Administrér samtykke </a></p>      <!-- <p class="qc-smaller">Læs i øvrigt vores opdaterede <a href="http://www.jppol.dk/da/specialsider/cookies.aspx" target="_blank">persondata politik her</a></p>       --></div></div></div>
+   <span>      <div class="qc-cmp-buttons" id="qcCmpButtons">      <button class="qc-cmp-button" onclick="window.__cmpui(&quot;setAndSaveAllConsent&quot;,!0)"> OK </button>      </div>      </span>      </span>      </div>      <div class="qc-cmp-initalt-buttons">      <p><a id="qc-cmp-purpose-button" class="qc-cmp-alt-action qc-cmp-center-bottom" onclick="window.__cmpui(&quot;updateConsentUi&quot;,2)"> Administrér samtykke </a></p>      <!-- <p class="qc-smaller">Læs i øvrigt vores opdaterede <a href="http://www.jppol.dk/da/specialsider/cookies.aspx" target="_blank">persondata politik her</a></p>       --></div></div></div>
 
 
 
