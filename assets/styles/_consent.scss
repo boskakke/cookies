@@ -587,6 +587,10 @@
 
 .qc-cmp-partner-info {
   padding: 10px;
+  overflow: hidden;
+    overflow-y: scroll;
+    max-height: 400px;
+    -webkit-overflow-scrolling: touch;
 }
 .qc-cmp-vendor-list-container {
   border: 1px solid #e8e9ea;
@@ -596,7 +600,7 @@
 
 }
 .qc-cmp-all-vendors-list {
-  height: 240px;
+  
 }
 .qc-cmp-purposes-vendor-list,
 .qc-cmp-vendor-list {
