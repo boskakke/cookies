@@ -22,7 +22,7 @@ html {
 	height: 100%;
 }
 html * {
-	box-sizing: content-box;
+	box-sizing: border-box;
 }
 @import "consent";
 // @import "old";
