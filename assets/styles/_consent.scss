@@ -581,7 +581,11 @@
 
 
 
-
+@media screen and (min-width: 551px) {
+  .qc-cmp-save-and-exit {
+    order: 10;
+  }  
+}
 
 
 
